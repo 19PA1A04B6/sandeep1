@@ -12,10 +12,7 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                sh '''
-                    echo "Running project..."
-                     python3 python.py
-                '''
+                sh python3 python.py
             }
         }
     }
