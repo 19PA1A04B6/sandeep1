@@ -1,5 +1,5 @@
 pipeline {
-    agent Madhu
+    agent { label 'Madhu' }
 
     stages {
         stage('Run Script') {
