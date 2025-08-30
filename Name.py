@@ -1,1 +1,1 @@
-print("ame")
+print("name")
